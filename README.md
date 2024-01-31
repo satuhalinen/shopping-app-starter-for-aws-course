@@ -26,7 +26,15 @@
    - **Task**: Implement a check in `AddBook.js` to use a default image when a user does not provide an image URL.
 
 6. **Ticket #106 - Develop SinglePage Component**
+
    - **6.1. User Story (Route and Links)**: As a user, I want to navigate to a detailed page for each book, so I can view more information about it.
      - **Task**: Set up a new route and navigation links for the `SinglePage` component.
    - **6.2. User Story (Styling Consistency)**: As a user, I expect the SinglePage component to have a consistent look and feel with the rest of the application for a seamless experience.
      - **Task**: Use Material-UI for designing the `SinglePage` component, ensuring it aligns with the existing style of the application.
+
+7. Create a cartSlice.js that looks almost the same as productSlice.js
+
+It will not have any getProduct in it, or any extra Reducers, these should be empty.
+It should contain an empty array in initialState that is called cart: []
+It will not have an additional logic in there at the moment.
+You will then need to connect this to the store, and check it in the redux dev tools of your chrome browser
